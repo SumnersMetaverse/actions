@@ -27,7 +27,7 @@ Each developer entry includes:
 
 1. Add your developer credentials to the `developers` array in `developer-credentials.json`
 2. Replace placeholder values (`YOUR_API_KEY_HERE`, etc.) with actual credentials
-3. Ensure the file is properly secured and not committed with real credentials if sensitive
+3. Ensure the file is properly secured and never commit real credentials to version control
 4. Use this file for Miagos vault integration to manage and store credentials securely
 
 ## Security Notes
@@ -53,7 +53,7 @@ To add a new developer:
     "api_key": "YOUR_API_KEY_HERE",
     "secret_key": "YOUR_SECRET_KEY_HERE"
   },
-  "created_at": "2025-12-14T22:27:36.463Z",
+  "created_at": "YYYY-MM-DDTHH:mm:ss.sssZ",
   "status": "active"
 }
 ```
